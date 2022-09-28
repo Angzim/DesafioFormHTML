@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Form em HTML e CSS</title>
+</head>
+<body>
+<form>
+    <div>
+        <h1 style="text-align: center;">Prova de Conhecimentos Gerais</h1> 
+        <p>Responda todas as questões, utilize rascunhos em papel para realizar os cálculos. Os rascunhos serão recolhidos pela professora após a quarentena</p>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Informações do aluno</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Digite seu nome"><br><br>
+            <label for="número">Quantas pessoas tem no seu grupo:</label>
+            <input type="text" placeholder="N de pessoas no grupo"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Digite seu email"><br><br>
+            <p>Data de nascimento <br> <input type="date"></p>
+            <p>Digite uma senha para acessar os dados da pesquisa posteriormente: <br><input type="text" placeholder="Digite uma senha"></p>
+            </fieldset>
+    </div>
+    
+    <div>
+        <fieldset>
+            <legend>Matemática</legend>
+            <p>3 + 3 = </p>
+            <p>10 / 3 = </p>
+            <p>5 * 2 = </p>
+            <p>Essa tarefa foi difícil? <input type="range"></p>
+        </fieldset>
+    </div>
+    
+    <div>
+        <fieldset>
+            <legend>Opinião quanto a utilização</legend>
+            <img src="./public/Imagem.png">
+            <p>Na frase: "Eu sou bonito" o sujeito é:</p>
+            <input type="radio" name="name"> Brad Pitt <br>
+            <input type="radio" name="name"> João da padaria <br> 
+            <input type="radio" name="name"> Você mesmo <br>
+            <input type="radio" name="name"> Meus pais <br>
+            <p>Complete a frase: "Filho de peixe, peixinho ____"</p>
+            <input type="checkbox"> É <br>
+            <input type="checkbox"> Tem <br>
+            <input type="checkbox"> Verde <br>
+            <input type="checkbox"> Bonito <br>
+            <input type="checkbox"> Maria <br>
+        </fieldset>
+    </div>
+    
+    <div>
+        <fieldset>
+            <legend>Dê uma nota para a sua professora</legend>
+            <p>Sua professora explica bem a matéria?</p><br>
+            <input type="range">
+        </fieldset>
+    </div>
+    
+    <div>
+        <fieldset>
+            <legend>Opiniões</legend>
+            <p>Digite a sua opinião sobre a disciplina</p>
+            <textarea cols="30" rows="10"></textarea>
+        </fieldset>
+    </div>
+    
+    <br><input type="button" value="Gravar Respostas">
+
+</form>
+</body>
+</html>
